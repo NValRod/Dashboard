@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/*<-------- Generals -------->*/
+:root{
+    --softWhite:#ecf0f3;
+    --darkGray:#555;
+    --softGray:#cbced1;
+    --white:#ffffff;
+    --waterGreen:#24cfaa;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
