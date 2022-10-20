@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HoldersComponent } from './holders/holders.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppComponent,
     BodyComponent,
     SidenavComponent,
-    DashboardComponent
+    DashboardComponent,
+    HoldersComponent
   ],
   imports: [
     BrowserModule,
