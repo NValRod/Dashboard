@@ -5,19 +5,24 @@ export const navbarData = [
         label:'Dashboard'
     },
     {
-        routeLink: 'titulares',
+        routeLink: 'products',
         icon: 'fal fa-user',
-        label: 'Titulares'
+        label: 'Products'
     },
     {
-        routeLink: 'estadisticas',
+        routeLink: 'statistics',
         icon: 'fal fa-chart-bar',
-        label: 'Estadisticas'
+        label: 'Statistics'
     },
     {
-        routeLink: 'configuración',
+        routeLink: 'media',
+        icon: 'fal fa-camera',
+        label: 'Media'
+    },
+    {
+        routeLink: 'configuration',
         icon: 'fal fa-cog',
-        label: 'Configuración'
+        label: 'Configuration'
     },
 ]
    

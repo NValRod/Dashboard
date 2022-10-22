@@ -4,15 +4,37 @@
     --darkGray:#555;
     --softGray:#cbced1;
     --white:#ffffff;
-    --waterGreen:#24cfaa;
+    --waterGreen:#17a687;
 }
 *{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
     position: relative;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus, select:focus, select, input.form-control:focus {
+    outline:none !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+textarea:focus, input:focus, input[type]:focus {
+    border-color: var(--waterGreen);
+}
+
+/*<-------- Style Containers -------->*/
+.ctn{
+    margin-top: -2em;
+    height: 93vh;
+    border-radius: 30px;
+    background: #ecf0f3;
+    box-shadow:  9px 9px 18px #babec0,
+                 -9px -9px 18px #ffffff;
+    
 }
